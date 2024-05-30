@@ -38,6 +38,3 @@ Gerekli Python modüllerini yüklemek için aşağıdaki komutu kullanabilirsini
 
 ```bash
 pip install paramiko ftplib smbprotocol tabulate colorama pyfiglet
-
-
-
