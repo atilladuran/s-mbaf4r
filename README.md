@@ -38,12 +38,28 @@ Gerekli Python modüllerini yüklemek için aşağıdaki komutu kullanabilirsini
 
 ```bash
 pip install paramiko ftplib smbprotocol tabulate colorama pyfiglet
-
-Kullanım
+```
+## Gereksinimler
 Aracı çalıştırın:
 ```bash
-Kodu kopyala
+
 python simbarf4r.py
+```
 IP adresini, kullanıcı adı dosyasını ve parola dosyasını girin.
 Denemek istediğiniz servisi seçin (SSH, FTP, RDP veya SMB).
 Geçerli kimlik bilgileri bulunduğunda sonuçlar ekranda tablo olarak gösterilecektir.
+
+
+Örnek Kullanım
+```bash
+
+Enter IP address: 192.168.1.100
+Select port to try:
+1. SSH (22)
+2. FTP (21)
+3. RDP (3389)
+4. SMB (445)
+Enter your choice: 1
+Enter username file path: usernames.txt
+Enter password file path: passwords.txt
+```
